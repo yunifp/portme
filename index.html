@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUNIF PUTRA PRADEKA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/52aa3d769b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/popo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>wanna be a software developer</p>
+                <h1>Hi, I'm <span>Yunif Putra Pradeka</span><br>From Indonesia</h1>
+                <h2>I am an informatics engineering student,</h2>
+                <h2><span>very amateur in web development,</span><br>i'm gonna improve</h2>
+            </div>
+
+        </div>
+    </div>
+    <!-------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="myPictureInAbout" src="images/1669540491-picsay.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>a new student at a university who is trying to develop his skills in developing a website. With
+                        the internet and his personal computer, Darren learned all of this on his own in his
+                        room.<span>"fight your laziness and you will find your true self"</span><br>
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Learning About Developing Web Interfaces</li>
+                            <li><span>UI/UX</span><br>Learning About Designing Web Interfaces</li>
+                            <li><span>data analyst</span><br>Its About To Sorting a Simple Thing :(</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-now</span><br>I'm about to learning and improve my skills </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2010-2016</span><br>Students at the State Elementary School Bobotsari 1</li>
+                            <li><span>2016-2019</span><br>Students at the State Junior High School Bobotsari 1</li>
+                            <li><span>2019-2022</span><br>Students at the State High School Bobotsari 1</li>
+                            <li><span>2022-now</span><br>Students at the Muhammadiyah University of Purwokerto</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------services--------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+              
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Develop</h2>
+                    <p>Design and modify a website, i'm not good on that but i'm trying to do my best, i just learned
+                        form my mistake and improve my self</p>
+                    <a href="https://www.geeksforgeeks.org/web-development/">Learn more</a>
+                </div>
+              
+                <div>
+                    <i class="fa-solid fa-swatchbook"></i>
+                    <h2>UI/UX</h2>
+                    <p>Design and modify a website, i'm not good on that but i'm trying to do my best, i just learned
+                        form my mistake and improve my self</p>
+                    <a href="https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Android App Developer</h2>
+                    <p>Create a custom Android App that can run on android as well</p>
+                    <a href="https://github.com/yunifp/flutter_voice_assistant_app.git">Learn more</a>
+                </div>
+              <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>JOKI TUGAS</h2>
+                    <p>menerima jasa joki tugas pembuatan web dan aplikasi atau yg berhubungan dengan IT , males nugas tapi punya duit? jokiin saja wkwkwkwk</p>
+                    <a href="https://www.instagram.com/1_darren.armani/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="project-list">
+
+              <div class="project">
+                  <img src="images/td.jpg">
+                  <div class="layer">
+                      <h3>ToDo App for Android</h3>
+                      <P>simple ToDo app in Flutter. In this app, I have shown you how to add and delete new to-do items and search for existing to-do items from the list. </P>
+                      <a href="https://github.com/yunifp/ToDo-App-flutter"></i></i></i></i></a>
+                  </div>
+              </div>
+              
+                  <div class="project">
+                    <img src="images/sdc.jpg">
+                    <div class="layer">
+                        <h3>Self-Driving-Car Autopilot</h3>
+                        <P>self-driving car by implementing every component one by one such a car driving mechanics, the environment, and simulate some sensors to detect collisions, the car control itself using a neural network. </P>
+                        <a href="https://github.com/yunifp/self-driving-autopilot"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></i></i></a>
+                    </div>
+                </div>
+
+                 <div class="project">
+                    <img src="images/ai.jpg">
+                    <div class="layer">
+                        <h3>Flutter Voice Assistant App with ChatGPT & Dall-E AI Image Generation</h3>
+                        <P>just for android as well, it isn't open source ive been planted a malware if u tryna use this without my permission, i can see ur data on your devices and got u suffer awkwkwkkw hihihi huhuhu </P>
+                        <a href="https://github.com/yunifp/flutter_voice_assistant_app"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></i></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/WhatsApp Image 2023-02-08 at 21.35.15.jpg">
+                    <div class="layer">
+                        <h3>Responsive website using Dark-mode</h3>
+                        <P>you can change into Dark-mode by click an icon</P>
+                        <a href="https://klentiku.darrenarmani.repl.co"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+
+              <div class="project">
+                    <img src="images/j.jpg">
+                    <div class="layer">
+                        <h3>Beauty 3D login register step by step form with change-theme</h3>
+                        <P>include a button to change the theme</P>
+                        <a href="https://log1.darrenarmani.repl.co/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+              
+                <div class="project">
+                    <img src="images/project2.jpg">
+                    <div class="layer">
+                        <h3>Responsive watches website using Dark-mode</h3>
+                        <P>you can change into Dark-mode by click an icon</P>
+                        <a href="https://NoWatch.darrenarmani.repl.co"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/onclass.jpg">
+                    <div class="layer">
+                        <h3>e-learning website for school</h3>
+                        <P>This website is designed to have two points of view, which students and teachers</P>
+                        <a href="https://drive.google.com/drive/folders/1GJm87vI2NK-MVEavBwjaNbZ3RzOcZguv?usp=share_link"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="images/webscrap.jpg">
+                    <div class="layer">
+                        <h3>Webscraper for shopee</h3>
+                        <P>you can scraping a data from a website semi-structured way of a website page.</P>
+                        <a href="https://github.com/yunifp/webscraper-for-shopee"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+
+              <div class="project">
+                    <img src="images/t.jpg">
+                    <div class="layer">
+                        <h3>3D Animation Step By Step Login Register Form with change-theme</h3>
+                        <P>include a button to change the theme</P>
+                        <a href="https://log2.darrenarmani.repl.co/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+
+               <div class="project">
+                    <img src="images/crud.jpg">
+                    <div class="layer">
+                        <h3>Full-Stack Responsive Admin-Panel </h3>
+                        <P>Crud-App Website using ASP.NET, Javascript, HTML & CSS</P>
+                        <a href="https://github.com/yunifp/admin_panel_crud_app_fullstack.git"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="images/3dlog.jpg">
+                    <div class="layer">
+                        <h3>3D login register html css</h3>
+                        <P>3D login and register page using html and css, we have also asp version of this check out in my github.</P>
+                        <a href="https://github.com/yunifp/3D-login-register-page"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+
+
+                <div class="project">
+                    <img src="images/quizz.jpg">
+                    <div class="layer">
+                        <h3>simple game quizz using c#</h3>
+                        <P>yeah im joking, im sorry if the questing wasnt polite to yall</P>
+                        <a href="https://github.com/yunifp/quiz-game-with-c-language"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+              
+            </div>
+            <a href="https://github.com/yunifp?tab=repositories" class="btn">See more on my Github</a>
+        </div>
+    </div>
+
+    <!---------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-brands fa-google"></i></i>darrenarmani666@gmail.com</p>
+                    <P><i class="fa-brands fa-whatsapp"></i></i>085895421884</P>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/1_darren.armani/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://open.spotify.com/playlist/1f81ENvuq3o4j4lgqOQpuq?si=4e92580aa44a49e4"><i
+                                class="fa-brands fa-spotify"></i></a>
+                    </div>
+                    <a href="images/myCV.pdf" download class="btn btn2">Download My CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Please send me message</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © darren. Made with my Broken Heart <i class="fa-solid fa-heart-crack"></i>. Avoid every
+                Friendly Girls</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <!-------script to submit-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxpd63mQ1HuTTXydi2jenvuJGqA7KoJGC3iItz3DfzqmezUUr9XzsSCyUFRPGKuahrx/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
